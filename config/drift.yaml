@@ -1,0 +1,17 @@
+drift_version: "1.0.0"
+index_active_dir: data/index/active
+sources_path: config/sources.yaml
+expected_schemes: 10
+expected_documents: 50
+required_sections:
+  - About
+  - Fund Details
+  - Minimum Investments
+  - Exit Load and Tax
+required_shadow_fields:
+  - expense_ratio
+  - min_sip
+required_text_labels:
+  - "Expense ratio"
+  - "Min. for SIP"
+  - "NAV:"

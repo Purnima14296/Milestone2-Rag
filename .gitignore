@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Frontend
+frontend/node_modules/
+
+# Local artifacts (future phases)
+data/
+artifacts/
+indexes/
+raw_docs/
+normalized_docs/
+logs/
+

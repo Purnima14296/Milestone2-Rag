@@ -1,0 +1,7 @@
+indexer_version: "1.0.0"
+expected_schemes: 10
+expected_embeddings: 50
+vector_store: chromadb
+collection_name: mf_faq_corpus
+distance_metric: cosine
+keyword_index_enabled: true

@@ -1,0 +1,11 @@
+PyYAML
+requests
+playwright
+beautifulsoup4
+sentence-transformers
+chromadb
+groq
+python-dotenv
+fastapi
+uvicorn[standard]
+httpx

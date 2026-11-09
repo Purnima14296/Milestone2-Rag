@@ -1,0 +1,7 @@
+refresh_version: "1.0.0"
+expected_schemes: 10
+expected_chunks_per_scheme: 5
+expected_embeddings_per_scheme: 5
+expected_index_documents: 50
+sources_path: config/sources.yaml
+cron: "0 2 * * 0"

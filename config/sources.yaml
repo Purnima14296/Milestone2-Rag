@@ -1,0 +1,67 @@
+canonicalization:
+  force_https: true
+  strip_query: true
+  strip_fragment: true
+  normalize_trailing_slash: false
+
+sources:
+  - id: hdfc_silver_etf_fof_direct_growth
+    scheme_name: HDFC Silver ETF FoF Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth
+    tags: [commodity, silver, fof]
+    enabled: true
+
+  - id: hdfc_mid_cap_fund_direct_growth
+    scheme_name: HDFC Mid Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+    tags: [equity, midcap]
+    enabled: true
+
+  - id: hdfc_equity_fund_direct_growth
+    scheme_name: HDFC Equity Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+    tags: [equity]
+    enabled: true
+
+  - id: hdfc_small_cap_fund_direct_growth
+    scheme_name: HDFC Small Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+    tags: [equity, smallcap]
+    enabled: true
+
+  - id: hdfc_defence_fund_direct_growth
+    scheme_name: HDFC Defence Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth
+    tags: [equity, thematic]
+    enabled: true
+
+  - id: hdfc_gold_etf_fof_direct_growth
+    scheme_name: HDFC Gold ETF Fund of Fund Direct Plan Growth
+    url: https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth
+    tags: [commodity, gold, fof]
+    enabled: true
+
+  - id: hdfc_nifty_50_index_fund_direct_growth
+    scheme_name: HDFC Nifty 50 Index Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-nifty-50-index-fund-direct-growth
+    tags: [equity, index]
+    enabled: true
+
+  - id: hdfc_balanced_advantage_fund_direct_growth
+    scheme_name: HDFC Balanced Advantage Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+    tags: [hybrid]
+    enabled: true
+
+  - id: hdfc_multi_cap_fund_direct_growth
+    scheme_name: HDFC Multi Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth
+    tags: [equity, multicaps]
+    enabled: true
+
+  - id: hdfc_pharma_and_healthcare_fund_direct_growth
+    scheme_name: HDFC Pharma And Healthcare Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth
+    tags: [equity, sectoral]
+    enabled: true
+

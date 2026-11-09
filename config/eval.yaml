@@ -1,0 +1,6 @@
+eval_version: "1.0.0"
+golden_path: config/eval_golden.yaml
+index_active_dir: data/index/active
+sources_path: config/sources.yaml
+min_hard_pass_rate: 1.0
+report_path: data/observability/eval_report.json

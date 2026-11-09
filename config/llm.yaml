@@ -1,0 +1,6 @@
+provider: groq
+model_id: llama-3.3-70b-versatile
+temperature: 0
+max_tokens: 256
+api_key_env: GROQ_API_KEY
+fallback_to_templates: true

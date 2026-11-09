@@ -1,0 +1,14 @@
+retrieval_version: "1.0.0"
+sources_path: config/sources.yaml
+index_active_dir: data/index/active
+top_k_per_path: 5
+rrf_k: 60
+keyword_weight: 0.55
+vector_weight: 0.45
+scheme_resolver_min_confidence: 0.45
+vector_min_score: 0.55
+keyword_min_score: 2.0
+field_route_score: 10.0
+section_boost: 1.2
+meta_description_weight: 0.5
+max_evidence_chunks: 2

@@ -1,0 +1,5 @@
+observability_version: "1.0.0"
+enabled: true
+events_path: data/observability/events.jsonl
+metrics_path: data/observability/metrics.json
+log_raw_message: false

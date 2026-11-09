@@ -1,0 +1,16 @@
+api_version: "1.0.0"
+host: "127.0.0.1"
+port: 8000
+sources_path: config/sources.yaml
+index_active_dir: data/index/active
+cors_origins:
+  - "http://localhost:3000"
+  - "http://127.0.0.1:3000"
+  - "http://localhost:5173"
+  - "http://127.0.0.1:5173"
+welcome_message: "Ask factual questions about the 10 locked HDFC mutual fund schemes."
+disclaimer: "Facts-only. No investment advice."
+example_questions:
+  - "Min SIP for HDFC Small Cap Fund Direct Growth"
+  - "Expense ratio for HDFC Mid Cap Fund Direct Growth"
+  - "Exit load for HDFC Nifty 50 Index Fund Direct Growth"

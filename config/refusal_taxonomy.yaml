@@ -1,0 +1,30 @@
+refusal_categories:
+  - id: advice_request
+    patterns:
+      - "should i invest"
+      - "recommend"
+      - "suggest"
+      - "good fund"
+      - "best fund"
+      - "is it worth"
+  - id: comparison_request
+    patterns:
+      - "which is better"
+      - "better than"
+      - "compare"
+      - "vs"
+  - id: return_projection
+    patterns:
+      - "predict"
+      - "future return"
+      - "will it give"
+      - "expected return"
+      - "calculate returns"
+  - id: out_of_scope
+    patterns: []
+
+link_policy:
+  # Contract A: every response includes exactly one link from sources.yaml
+  # Contract B: refusals / unknown / PII-blocked contain no link; factual answers contain exactly one link
+  mode: contract_b_split
+

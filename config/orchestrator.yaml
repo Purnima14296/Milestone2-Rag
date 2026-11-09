@@ -1,0 +1,8 @@
+orchestrator_version: "1.0.0"
+sources_path: config/sources.yaml
+refusal_taxonomy_path: config/refusal_taxonomy.yaml
+retrieval_config_path: config/retrieval.yaml
+llm_config_path: config/llm.yaml
+max_answer_sentences: 3
+link_policy:
+  mode: contract_b_split
